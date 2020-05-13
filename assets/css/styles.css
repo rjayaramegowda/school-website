@@ -1,0 +1,187 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+/*------------------------------------
+  Nav
+------------------------------------*/
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-nav a{
+    color: #555;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.dropdown-menu {    
+    padding: 0;
+    margin: 0;     
+    border: none;
+    border-top: solid 2px #e83e8c;
+    border-radius: 0; 
+}
+
+.dropdown-menu a:hover { 
+    background-color: #f7f7f7;
+}
+
+img.cover-pic {
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
+.g-font-size-16 {
+    font-size: 16px;
+}
+
+
+
+/*------------------------------------
+  Primary Color
+------------------------------------*/
+
+a {
+    color: #e83e8c;
+}
+
+a:hover {
+    color: rgba(232, 62, 140, .7);
+}
+
+.bg-primary {
+    background-color: #e83e8c !important;
+}
+
+/*------------------------------------
+  Nav
+------------------------------------*/
+
+.navbar-dark .navbar-toggler {    
+    border-color: #e83e8c !important;
+}
+
+.navbar-toggler {  
+    border: 1px solid transparent;
+    
+}
+
+/*------------------------------------
+ Sections
+-------------------------------------*/
+.notice-board a {
+color: white;
+}
+
+/*------------------------------------
+  Icon-v5
+------------------------------------*/
+
+.u-icon-v2 {
+    display: inline-block;
+    text-align: center;
+    width: 3.92857rem;
+    height: 3.92857rem;
+    line-height: 2;
+    font-size: 1.57143rem;
+}
+
+.u-icon-v2.u-icon-size--sm {
+    width: 2.85714rem;
+    height: 2.85714rem;
+    font-size: 1.28571rem;
+}
+
+/*------------------------------------
+  Heading-v2-2
+------------------------------------*/
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+}
+
+.heading--bottom::after {
+    content: "";
+    display: inline-block;
+    border-top: solid 1px #e83e8c;
+    margin-top: 1.78571rem;    
+    width: 3.71429rem;    
+  }
+
+/*------------------------------------
+  Colors
+------------------------------------*/  
+.bg-black {
+    background-color: rgb(0, 0, 0);
+}
+
+.bg-black-9 {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.bg-white-1 {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.text-white-9 {
+    color: rgba(255, 255, 255, .9);
+}
+
+.text-white-8 {
+    color: rgba(255, 255, 255, .8);
+}
+
+/*------------------------------------
+  Font size
+------------------------------------*/  
+
+.g-font-size-12 {
+    font-size: 12px;
+}
+
+.g-font-size-13 {
+    font-size: 13px;
+}
+
+.g-font-size-14 {
+    font-size: 14px !important;
+}
+
+.g-font-size-16 {
+    font-size: 16px !important;
+}
+
+/*------------------------------------
+  Border
+------------------------------------*/  
+.border-white-9 {
+    border-color: rgba(255, 255, 255, .9);
+}
+
+.border-white-1 {
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.border-bottom-white-9 {
+    border-bottom: solid 1px rgba(255, 255, 255, .1);
+}
+
+/*------------------------------------
+  Positions
+------------------------------------*/  
+
+.right-0 {
+    right: 0;
+}
+
+/*------------------------------------
+  width
+------------------------------------*/  
+.width-10 {
+    width: 10px;
+}
